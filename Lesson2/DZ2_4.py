@@ -1,6 +1,7 @@
-def funct1(n)
-t = 1
+# Найти сумму n элементов следующего ряда чисел: 1 -0.5 0.25 -0.125 ...Количество элементов (n) вводится с клавиатуры.
+--def funct1(n)
+--t = 1
 #for i in range(1, n + 1):
-t = t * -0.5
-return funct1(n) + funct1(n-1)
-print(funct1(4))
+--t = t * -0.5
+--return funct1(n) + funct1(n-1)
+--print(funct1(4))
